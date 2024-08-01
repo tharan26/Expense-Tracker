@@ -1,0 +1,116 @@
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.josefin-sans-ser {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    background-color: #A7BEAE;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 18%;
+    font-family: "Satisfy", cursive;
+}
+
+.tracker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.tracker input,
+.tracker select {
+    background-color: #E7E8D1;
+}
+
+.tracker input,
+.tracker button,
+.tracker select {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.tracker button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tracker button:hover {
+    background-color: #4cae4c;
+}
+
+.tab table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab th,
+.tab td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.tab th {
+    background-color: #F98866;
+    font-size: 18px;
+}
+
+.tab td {
+    font-size: 16px;
+    background-color: #E7E8D1;
+}
+
+.total {
+    margin-left: 55%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.filter {
+    margin-left: 55%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.filter select {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
